@@ -2,6 +2,7 @@ from django.template.defaultfilters import slugify
 import factory
 import factory.fuzzy
 from ..models import Cheese
+from everycheese.users.tests.factories import UserFactory
 # country_of_origin = factory.Faker('country_code')
 
 class CheeseFactory(factory.django.DjangoModelFactory):
